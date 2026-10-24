@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "hoverquickmove",
+  "version": "1.0.0",
+  "name": "Hover Quick Move",
+  "description": "Hold a key and move your mouse over items in a container to shift-click them without clicking. Client-side.",
+  "authors": ["Munky"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.hoverquickmove.HoverQuickMoveClient"]
+  },
+  "mixins": ["hoverquickmove.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
